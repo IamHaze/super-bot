@@ -1,12 +1,6 @@
-const Discord = require('discord.js')
-const bot = new Discord.Client();
-
-const token = 'NTgxNDA2ODUxMjA0MTIwNTg2.XOiARg.eej2yJBUZ-AKlqG833Ns-9ebayg';
-
-const PREFIX = '!';
-
 bot.on('ready' , () =>{
     console.log('Im Alive')
+    bot.user.setActivity('You Human', {type : "WATCHING"}).catch(console.error);
 })
 
 bot.on('guildMemberAdd', member =>{
@@ -16,9 +10,6 @@ bot.on('guildMemberAdd', member =>{
 
     channel.send(`Welcome Human to MasteR HazE Server, ${member}, Do Whatever u want here!`)
 })
-
-
-
 
 bot.on('message' , message=>{
   
@@ -41,15 +32,18 @@ bot.on('message' , message=>{
         case 'fb' :
              message.reply('@masterhaze93');
             break; 
-         case 'hi' :
+        case 'hi' :
              message.reply('Hello Fellow Human');
-            break; 
+        case 'bot' :
+             message.reply('You Summon me Human.?');
+        case 'bye' :
+             message.reply('Goodbye Human!');
+        break;
         case 'clear':
         if(!args[1]) return message.reply('Error Command Not Found =.=!')   
         message.channel.bulkDelete(args[1]);
         break;
     }
 })
-
 // THIS  MUST  BE  THIS  WAY
 bot.login(process.env.BOT_TOKEN);
