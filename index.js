@@ -39,8 +39,10 @@ bot.on('message' , message=>{
             break; 
         case 'hi' :
              message.reply('Hello Fellow Human');
+            break;
         case 'bot' :
              message.reply('You Summon me Human.?');
+            break;
         case 'bye' :
              message.reply('Goodbye Human!');
         break;
