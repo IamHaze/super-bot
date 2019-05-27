@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('ready' , () =>{
     console.log('Im Alive')
-    bot.user.setActivity('You Human', {type : "WATCHING"}).catch(console.error);
+    client.user.setActivity('You Human', {type : "WATCHING"}).catch(console.error);
 })
 
 client.on('guildMemberAdd', member =>{
