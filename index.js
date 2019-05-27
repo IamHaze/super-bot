@@ -1,3 +1,8 @@
+const Discord = require('discord.js')
+const bot = new Discord.Client();
+
+const PREFIX = '!';
+
 bot.on('ready' , () =>{
     console.log('Im Alive')
     bot.user.setActivity('You Human', {type : "WATCHING"}).catch(console.error);
