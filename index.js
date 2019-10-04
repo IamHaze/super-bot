@@ -27,6 +27,9 @@ bot.on('message' , message=>{
         case 'owner' :
             message.reply('@Haziq29#7494  The Great One');
             break;
+        case 'warning' :
+            message.reply('@Haziq29#7494  Kuat ugut org ini org');
+            break;
         case 'welcome':
             if(args[1] == 'Welcome To MUGG Server'){
             message.reply('Please read our Informasi Channel ');
