@@ -49,7 +49,7 @@ bot.on('message' , message=>{
         case 'hi' :
              message.reply('Hello Fellow Human');
             break;
-        case 'bot' :
+        case 'mhx01' :
              message.reply('You Summon me Human.?');
             break;
         case 'bye' :
