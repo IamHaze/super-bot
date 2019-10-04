@@ -24,8 +24,8 @@ bot.on('message' , message=>{
         case 'bot':
             message.reply('What?');
             break;
-        case 'insta' :
-            message.reply('MasteR_HazE');
+        case 'Owner' :
+            message.reply('@Haziq29#7494  The Great One');
             break;
         case 'welcome':
             if(args[1] == 'Welcome To MUGG Server'){
@@ -34,8 +34,11 @@ bot.on('message' , message=>{
                 message.reply('Invalid Command')
             }
             break;
-        case 'fb' :
-             message.reply('@masterhaze93');
+        case 'text' :
+             message.reply('Welcome to MUGG firstly read our Informasi Text Channnel');
+            break; 
+        case 'Developer' :
+             message.reply('@🎃Labu Labi🐢#6854 @NAGA®#3025 The Geniuses');
             break; 
         case 'hi' :
              message.reply('Hello Fellow Human');
