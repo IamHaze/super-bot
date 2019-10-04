@@ -5,7 +5,7 @@ const PREFIX = '!';
 
 bot.on('ready' , () =>{
     console.log('Im Alive')
-    bot.user.setActivity('You Human', {type : "WATCHING"}).catch(console.error);
+    bot.user.setActivity('Admin', {type : "Tgh Perhati"}).catch(console.error);
 })
 
 bot.on('guildMemberAdd', member =>{
@@ -41,7 +41,7 @@ bot.on('message' , message=>{
              message.reply('Hello Fellow Human');
             break;
         case 'admin' :
-             message.reply('@developer');
+             message.reply('@Haziq29#7494');
             break;
         case 'bot' :
              message.reply('You Summon me Human.?');
