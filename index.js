@@ -5,7 +5,7 @@ const PREFIX = '!';
 
 bot.on('ready' , () =>{
     console.log('Im Alive')
-    bot.user.setActivity('Admin', {type : "Watching"}).catch(console.error);
+    bot.user.setActivity('You Human', {type : "WATCHING"}).catch(console.error);
 })
 
 bot.on('guildMemberAdd', member =>{
@@ -13,7 +13,7 @@ bot.on('guildMemberAdd', member =>{
     const channel = member.guild.find(channel => channel.name === "general");
     if(!channel) return;
 
-    channel.send(`Welcome Human to MUGG, ${member}, Do check our Law and Info!`)
+    channel.send(`Welcome Human to MasteR HazE Server, ${member}, Do Whatever u want here!`)
 })
 
 bot.on('message' , message=>{
@@ -21,15 +21,15 @@ bot.on('message' , message=>{
     let args = message.content.substring(PREFIX.length).split(" ");
 
     switch(args[0]){
-        case 'ping':
+        case 'bot':
             message.reply('What?');
             break;
         case 'insta' :
             message.reply('MasteR_HazE');
             break;
         case 'info':
-            if(args[1] == 'version'){
-            message.reply('Version 0.1 Beta');
+            if(args[1] == 'Welcome To MUGG Server'){
+            message.reply('Please read our Informasi Channel ');
             }else{
                 message.reply('Invalid Command')
             }
@@ -39,9 +39,6 @@ bot.on('message' , message=>{
             break; 
         case 'hi' :
              message.reply('Hello Fellow Human');
-            break;
-        case 'admin' :
-             message.reply('@Haziq29#7494 @🎃Labu Labi🐢#6854 @NAGA®#3025 ');
             break;
         case 'bot' :
              message.reply('You Summon me Human.?');
