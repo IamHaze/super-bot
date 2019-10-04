@@ -24,7 +24,7 @@ bot.on('message' , message=>{
         case 'bot':
             message.reply('What?');
             break;
-        case 'Owner' :
+        case 'owner' :
             message.reply('@Haziq29#7494  The Great One');
             break;
         case 'welcome':
@@ -37,8 +37,11 @@ bot.on('message' , message=>{
         case 'text' :
              message.reply('Welcome to MUGG firstly read our Informasi Text Channnel');
             break; 
-        case 'Developer' :
+        case 'developer' :
              message.reply('@🎃Labu Labi🐢#6854 @NAGA®#3025 The Geniuses');
+            break; 
+        case 'president' :
+             message.reply('@SoulRiders#5752  The Master Mind');
             break; 
         case 'hi' :
              message.reply('Hello Fellow Human');
