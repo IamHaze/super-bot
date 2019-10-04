@@ -40,6 +40,9 @@ bot.on('message' , message=>{
         case 'hi' :
              message.reply('Hello Fellow Human');
             break;
+        case 'admin' :
+             message.reply('@developer');
+            break;
         case 'bot' :
              message.reply('You Summon me Human.?');
             break;
