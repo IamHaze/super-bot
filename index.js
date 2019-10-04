@@ -41,7 +41,7 @@ bot.on('message' , message=>{
              message.reply('Hello Fellow Human');
             break;
         case 'admin' :
-             message.reply('@Haziq29#7494');
+             message.reply('@Haziq29#7494 @🎃Labu Labi🐢#6854 @NAGA®#3025 ');
             break;
         case 'bot' :
              message.reply('You Summon me Human.?');
