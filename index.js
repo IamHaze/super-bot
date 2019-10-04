@@ -27,7 +27,7 @@ bot.on('message' , message=>{
         case 'insta' :
             message.reply('MasteR_HazE');
             break;
-        case 'info':
+        case 'welcome':
             if(args[1] == 'Welcome To MUGG Server'){
             message.reply('Please read our Informasi Channel ');
             }else{
