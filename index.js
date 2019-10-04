@@ -5,7 +5,7 @@ const PREFIX = '!';
 
 bot.on('ready' , () =>{
     console.log('Im Alive')
-    bot.user.setActivity('Admin', {type : "Tgh Perhati"}).catch(console.error);
+    bot.user.setActivity('Admin', {type : "Watching"}).catch(console.error);
 })
 
 bot.on('guildMemberAdd', member =>{
@@ -13,7 +13,7 @@ bot.on('guildMemberAdd', member =>{
     const channel = member.guild.find(channel => channel.name === "general");
     if(!channel) return;
 
-    channel.send(`Welcome Human to MasteR HazE Server, ${member}, Do Whatever u want here!`)
+    channel.send(`Welcome Human to MUGG, ${member}, Do check our Law and Info!`)
 })
 
 bot.on('message' , message=>{
