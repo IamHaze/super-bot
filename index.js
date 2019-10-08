@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client();
 
-const PREFIX = '!';
+const PREFIX = '@';
 
 bot.on('ready' , () =>{
     console.log('Im Alive')
@@ -62,6 +62,8 @@ bot.on('message' , message=>{
         case 'info-jail' :
              message.reply('SENARAI SENJATA DAN TEMPAT YANG BOLEH DIGUNAKAN SEMASA ROMPAKAN');
              message.reply('1. Seluruh Kedai 7E - Hand Gun (Pistol SAHAJA!)');
+             message.reply('1. Seluruh Kedai 7E - Hand Gun (Pistol SAHAJA!)');
+
         break;
     }
 })
