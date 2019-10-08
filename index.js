@@ -55,6 +55,9 @@ bot.on('message' , message=>{
         case 'bye' :
              message.reply('Goodbye Human!');
         break;
+        case 'lecturer-rp' :
+             message.reply('Bosskita ni tukang ajar RP @Mugi @AbeAmir!');
+            break;
         case 'clear':
         if(!args[1]) return message.reply('Nk clear berapa ni boss =.=!')   
         message.channel.bulkDelete(args[1]);
