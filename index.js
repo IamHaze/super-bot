@@ -22,13 +22,13 @@ bot.on('message' , message=>{
 
     switch(args[0]){
         case 'bot':
-            message.reply('What?');
+            message.reply('Nk apa Bossku?');
             break;
         case 'owner' :
-            message.reply('@Haziq29#7494  The Great One');
+            message.reply('@Haziq29#7494  Tuan yg Terutama');
             break;
         case 'warning' :
-            message.reply('@Haziq29#7494  Kuat ugut org ini org');
+            message.reply('@Haziq29#7494 Bosskita ni jgn kacau dia');
             break;
         case 'welcome':
             if(args[1] == 'Welcome To MUGG Server'){
@@ -41,10 +41,10 @@ bot.on('message' , message=>{
              message.reply('Welcome to MUGG firstly read our Informasi Text Channnel');
             break; 
         case 'developer' :
-             message.reply('@🎃Labu Labi🐢#6854 @NAGA®#3025 The Geniuses');
+             message.reply('@🎃Labu Labi🐢#6854 @NAGA®#3025 Yang Berbahagia Tuan Developer');
             break; 
         case 'president' :
-             message.reply('@SoulRiders#5752  The Master Mind');
+             message.reply('@SoulRiders#5752  Perdana Menteri Kita ni');
             break; 
         case 'hi' :
              message.reply('Hello Fellow Human');
@@ -60,7 +60,7 @@ bot.on('message' , message=>{
         message.channel.bulkDelete(args[1]);
         break;
         case 'info-jail' :
-             message.reply('Boss blh baca dkt #jail-role');
+             message.reply('Boss blh baca dkt #jail-role sana ada semua info Boss');
         break;
     }
 })
