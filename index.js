@@ -55,7 +55,7 @@ bot.on('message' , message=>{
         case 'bye' :
              message.reply('Goodbye Human!');
         break;
-        case 'lecturer-rp' :
+        case 'cikgu-rp' :
              message.reply('Bosskita ni tukang ajar RP @Mugi @AbeAmir Dgr Baik2!');
             break;
         case 'clear':
