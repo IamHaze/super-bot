@@ -60,10 +60,7 @@ bot.on('message' , message=>{
         message.channel.bulkDelete(args[1]);
         break;
         case 'info-jail' :
-             message.reply('SENARAI SENJATA DAN TEMPAT YANG BOLEH DIGUNAKAN SEMASA ROMPAKAN');
-             message.reply('1. Seluruh Kedai 7E - Hand Gun (Pistol SAHAJA!)');
-             message.reply('1. Seluruh Kedai 7E - Hand Gun (Pistol SAHAJA!)');
-
+             message.reply('Boss blh baca dkt #jail-role');
         break;
     }
 })
