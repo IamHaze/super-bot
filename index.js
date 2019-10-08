@@ -65,6 +65,9 @@ bot.on('message' , message=>{
         case 'info-jail' :
              message.reply('Boss blh baca dkt #jail-role sana ada semua info Boss');
         break;
+        case 'boss' :
+             message.reply('@!316204134879592448 TEST');
+        break;
     }
 })
 // THIS  MUST  BE  THIS  WAY
