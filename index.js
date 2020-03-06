@@ -10,7 +10,7 @@ bot.on('ready' , () =>{
 
 bot.on('guildMemberAdd', member =>{
 
-    const channel = member.guild.find(channel => channel.name === "chat-bod");
+    const channel = member.guild.find(channel => channel.name === "join");
     if(!channel) return;
 
     channel.send(`Welcome Human, ${member}, Do read our Informasi Text Channnel!`)
@@ -41,10 +41,10 @@ bot.on('message' , message=>{
              message.reply('Welcome to MUGG firstly read our Informasi Text Channnel');
             break; 
         case 'developer' :
-             message.reply('@🎃Labu Labi🐢#6854 @NAGA®#3025 Yang Berbahagia Tuan Developer');
+             message.reply('OptimusPrimeXxx#1374');
             break; 
         case 'president' :
-             message.reply('@SoulRiders#5752  Perdana Menteri Kita ni');
+             message.reply('Perdana Menteri Kita ni');
             break; 
         case 'hi' :
              message.reply('Hello Fellow Human');
