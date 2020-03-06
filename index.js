@@ -4,8 +4,8 @@ const bot = new Discord.Client();
 const PREFIX = '!';
 
 bot.on('ready' , () =>{
-    console.log('Im Alive')
-    bot.user.setActivity('MUGG Players', {type : "WATCHING"}).catch(console.error);
+    console.log('Im Alive And Ready to Slay')
+    bot.user.setActivity('COKENG Player', {type : "WATCHING"}).catch(console.error);
 })
 
 bot.on('guildMemberAdd', member =>{
@@ -13,7 +13,7 @@ bot.on('guildMemberAdd', member =>{
     const channel = member.guild.find(channel => channel.name === "chat-bod");
     if(!channel) return;
 
-    channel.send(`Welcome Human Malaysia Underground Gaming RP MUGG, ${member}, Do read our Informasi Text Channnel!`)
+    channel.send(`Welcome Human, ${member}, Do read our Informasi Text Channnel!`)
 })
 
 bot.on('message' , message=>{
