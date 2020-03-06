@@ -25,7 +25,7 @@ bot.on('message' , message=>{
             message.reply('Nk apa Bossku?');
             break;
         case 'owner' :
-            message.reply('@Haziq29#7494  Tuan yg Terutama');
+            message.reply('@OptimusPrimeXxx#1374 Dia ni paling hebat');
             break;
         case 'warning' :
             message.reply('@Haziq29#7494 Bosskita ni jgn kacau dia');
