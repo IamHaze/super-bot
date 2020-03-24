@@ -52,6 +52,9 @@ bot.on('message' , message=>{
         case 'bye' :
              message.reply('Goodbye Human!');
         break;
+        case 'whitelist' :
+             message.reply('Please Refer Our #whitelist-guide');
+        break;
         case 'clear':
         if(!args[1]) return message.reply('Nk clear berapa ni boss =.=!')   
         message.channel.bulkDelete(args[1]);
