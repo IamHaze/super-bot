@@ -31,8 +31,8 @@ bot.on('message' , message=>{
             message.reply('JOJO Bosskita ni jgn kacau dia');
             break;
         case 'welcome':
-            if(args[1] == 'Welcome To WORP Server'){
-            message.reply('Please read our Informasi Channel ');
+            if(args[1] == 'newbie'){
+            message.reply('Welcome To WORP Server Please read our Informasi Channel ');
             }else{
                 message.reply('Invalid Command')
             }
@@ -53,7 +53,7 @@ bot.on('message' , message=>{
              message.reply('Goodbye Human!');
         break;
         case 'whitelist' :
-             message.reply('Please Refer Our #whitelist-guide');
+             message.reply('Please Refer Our #whitelist-guide #685469757822337054');
         break;
         case 'clear':
         if(!args[1]) return message.reply('Nk clear berapa ni boss =.=!')   
