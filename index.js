@@ -5,7 +5,7 @@ const PREFIX = '$';
 
 bot.on('ready' , () =>{
     console.log('Im Alive And Ready to Slay')
-    bot.user.setActivity('COKENG Player', {type : "WATCHING"}).catch(console.error);
+    bot.user.setActivity('WORP Player', {type : "WATCHING"}).catch(console.error);
 })
 
 bot.on('guildMemberAdd', member =>{
@@ -25,27 +25,18 @@ bot.on('message' , message=>{
             message.reply('Nk apa Bossku?');
             break;
         case 'owner' :
-            message.reply('@329159703525326858 Dia ni paling hebat');
+            message.reply('SlayMika Dia ni paling hebat');
             break;
         case 'warning' :
-            message.reply('@242528380719726594 Bosskita ni jgn kacau dia');
+            message.reply('JOJO Bosskita ni jgn kacau dia');
             break;
         case 'welcome':
-            if(args[1] == 'Welcome To MUGG Server'){
+            if(args[1] == 'Welcome To WORP Server'){
             message.reply('Please read our Informasi Channel ');
             }else{
                 message.reply('Invalid Command')
             }
             break;
-        case 'text' :
-             message.reply('Welcome to MUGG firstly read our Informasi Text Channnel');
-            break; 
-        case 'developer' :
-             message.reply('OptimusPrimeXxx#1374');
-            break; 
-        case 'president' :
-             message.reply('Perdana Menteri Kita ni');
-            break; 
         case 'hi' :
              message.reply('Hello Fellow Human');
             break;
