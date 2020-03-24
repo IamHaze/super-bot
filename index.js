@@ -10,7 +10,7 @@ bot.on('ready' , () =>{
 
 bot.on('guildMemberAdd', member =>{
 
-    const channel = member.guild.find(channel => channel.name === "join");
+    const channel = member.guild.find(channel => channel.name === "general-chat");
     if(!channel) return;
 
     channel.send(`Welcome Human, ${member}, Do read our Informasi Text Channnel!`)
