@@ -32,7 +32,7 @@ bot.on('message' , message=>{
             break;
         case 'welcome':
             if(args[1] == 'newbie'){
-            message.reply('Welcome To WORP Server Please read our Informasi Channel ');
+            message.reply('Selamat Datang ke  WORP Server Bg new player silakan baca segala peraturan server kami. Terima Kasih ');
             }else{
                 message.reply('Invalid Command')
             }
