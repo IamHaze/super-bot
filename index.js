@@ -40,8 +40,11 @@ bot.on('message' , message=>{
         case 'hi' :
              message.reply('Hello Fellow Human');
             break;
-            case 'status' :
-             message.reply('Hi Server Currently in Developement. Thanks For your patient. We will update soon');
+        case 'status' :
+             message.reply('Hi Server Currently in Development. Thanks For your patient. We will update soon');
+            break;
+        case 'ip' :
+             message.reply('Sabar Bossku IP blm ada lg ni tgh buat nt sy bgtau bila dh ada ye');
             break;
         case 'mhx01' :
              message.reply('You Summon me Human.?');
