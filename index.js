@@ -53,7 +53,7 @@ bot.on('message' , message=>{
              message.reply('Goodbye Human!');
         break;
         case 'whitelist' :
-             message.reply('Please Refer Our #whitelist-guide #685469757822337054');
+             message.reply('Please Refer Our #whitelist-guide');
         break;
         case 'clear':
         if(!args[1]) return message.reply('Nk clear berapa ni boss =.=!')   
