@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client();
 
-const PREFIX = '$';
+const PREFIX = '&';
 
 bot.on('ready' , () =>{
     console.log('Im Alive And Ready to Slay')
