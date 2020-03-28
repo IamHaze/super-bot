@@ -41,7 +41,7 @@ bot.on('message' , message=>{
              message.reply('Hello Fellow Human');
             break;
         case 'status' :
-             message.reply('Hi Server Currently in Development. Thanks For your patient. We will update soon');
+             message.reply('Hi Server Will do a Beta Test Starting 29/03/20 9PM. Thanks for your patient');
             break;
         case 'ip' :
              message.reply('Sabar Bossku IP blm ada lg ni tgh buat nt sy bgtau bila dh ada ye');
