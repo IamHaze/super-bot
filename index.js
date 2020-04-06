@@ -41,10 +41,10 @@ bot.on('message' , message=>{
              message.reply('Hello Fellow Human');
             break;
         case 'status' :
-             message.reply('Hi Server Ongoing Beta Test Starting. Come join us');
+             message.reply('Hi Server Running Join us');
             break;
         case 'ip' :
-             message.reply('connect wreckonrp.ddns.net:12532');
+             message.reply('IP tgh error aduhai fivem ni');
             break;
         case 'mhx01' :
              message.reply('You Summon me Human.?');
