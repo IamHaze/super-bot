@@ -41,7 +41,7 @@ bot.on('message' , message=>{
              message.reply('Hello Fellow Human');
             break;
         case 'status' :
-             message.reply('Hi Server Running Join us');
+             message.reply('Hi Server is Running Come & Join Us');
             break;
         case 'ip' :
              message.reply('IP tgh error aduhai fivem ni');
