@@ -44,7 +44,7 @@ bot.on('message' , message=>{
              message.reply('Hi Server is Running Come & Join Us');
             break;
         case 'ip' :
-             message.reply('connect wreckonrp.ddns.net:12532');
+             message.reply('connect cfx.re/join/leqz6o');
             break;
         case 'mhx01' :
              message.reply('You Summon me Human.?');
