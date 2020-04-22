@@ -24,11 +24,11 @@ bot.on('message' , message=>{
         case 'bot':
             message.reply('Nk apa Bossku?');
             break;
-        case 'owner' :
-            message.reply('SlayMika Dia ni paling hebat');
+        case 'spam' :
+            message.reply('Siapa yg Main Spam tu Bossku.?');
             break;
-        case 'warning' :
-            message.reply('JOJO Bosskita ni jgn kacau dia');
+        case 'lvl' :
+            message.reply('Eh kejar lvl ke tu .?');
             break;
         case 'welcome':
             if(args[1] == 'newbie'){
@@ -44,7 +44,7 @@ bot.on('message' , message=>{
              message.reply('Hi Server is Running Come & Join Us');
             break;
         case 'ip' :
-             message.reply('IP tgh error aduhai fivem ni');
+             message.reply('connect wreckonrp.ddns.net:12532');
             break;
         case 'mhx01' :
              message.reply('You Summon me Human.?');
