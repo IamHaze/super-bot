@@ -27,6 +27,9 @@ bot.on('message' , message=>{
         case 'spam' :
             message.reply('Siapa yg Main Spam tu Bossku.?');
             break;
+       case 'record' :
+            message.reply('Ok Boss. Recording Check data at MH Server http://192.168.1.1/usb-data ');
+            break;
         case 'rank' :
             message.reply('Eh kejar lvl ke tu .?');
             break;
