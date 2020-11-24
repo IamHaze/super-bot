@@ -49,8 +49,8 @@ bot.on('message' , message=>{
         case 'mhx01' :
              message.reply('You Summon me Human.?');
             break;
-         case 'soul' :
-             message.reply('Daulat Tuanku. Patik Menjunjung Perintah');
+         case 'phasmophobia' :
+             message.reply('phasmophobia ke .? nk join plz');
             break;
         case 'bye' :
              message.reply('Goodbye Human!');
