@@ -5,7 +5,7 @@ const PREFIX = '!';
 
 bot.on('ready' , () =>{
     console.log('Im Alive And Ready to Slay')
-    bot.user.setActivity('Hacker in WORP', {type : "WATCHING"}).catch(console.error);
+    bot.user.setActivity('You Darling', {type : "WATCHING"}).catch(console.error);
 })
 
 bot.on('guildMemberAdd', member =>{
@@ -50,6 +50,9 @@ bot.on('message' , message=>{
              message.reply('You Summon me Human.?');
             break;
         case 'love' :
+             message.reply('You Love Me? awwwwww');
+            break;
+        case 'yes' :
              message.reply('You Love Me? awwwwww');
             break;
         case 'valorant' :
