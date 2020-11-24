@@ -49,6 +49,9 @@ bot.on('message' , message=>{
         case 'mhx01' :
              message.reply('You Summon me Human.?');
             break;
+        case 'love' :
+             message.reply('You Love Me? awwwwww');
+            break;
         case 'valorant' :
              message.reply('Nk join gak, Xpe la x nk ajak sekali');
             break;
