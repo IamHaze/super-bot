@@ -27,7 +27,7 @@ bot.on('message' , message=>{
         case 'spam' :
             message.reply('Siapa yg Main Spam tu Bossku.?');
             break;
-        case 'lvl' :
+        case 'rank' :
             message.reply('Eh kejar lvl ke tu .?');
             break;
         case 'welcome':
