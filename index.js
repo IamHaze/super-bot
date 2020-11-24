@@ -53,7 +53,7 @@ bot.on('message' , message=>{
              message.reply('You Love Me? awwwwww');
             break;
         case 'yes' :
-             message.reply('You Love Me? awwwwww');
+             message.reply('Yes.? Really.?');
             break;
         case 'valorant' :
              message.reply('Nk join gak, Xpe la x nk ajak sekali');
