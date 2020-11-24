@@ -49,6 +49,9 @@ bot.on('message' , message=>{
         case 'mhx01' :
              message.reply('You Summon me Human.?');
             break;
+        case 'valorant' :
+             message.reply('Nk join gak, Xpe la x nk ajak sekali');
+            break;
          case 'phasmophobia' :
              message.reply('phasmophobia ke .? nk join plz');
             break;
