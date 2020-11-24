@@ -41,10 +41,10 @@ bot.on('message' , message=>{
              message.reply('Hello Fellow Human');
             break;
         case 'status' :
-             message.reply('Hi Server is Running Come & Join Us');
+             message.reply('Hi Im Ok running with 100% Health');
             break;
-        case 'ip' :
-             message.reply('connect cfx.re/join/leqz6o');
+        case 'link' :
+             message.reply('https://discord.gg/DuVpXAS');
             break;
         case 'mhx01' :
              message.reply('You Summon me Human.?');
