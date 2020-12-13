@@ -5,7 +5,7 @@ const PREFIX = '!';
 
 bot.on('ready' , () =>{
     console.log('Im Alive And Ready to Slay')
-    bot.user.setActivity('You Darling', {type : "WATCHING"}).catch(console.error);
+    bot.user.setActivity('You My Nemesis', {type : "WATCHING"}).catch(console.error);
 })
 
 bot.on('guildMemberAdd', member =>{
