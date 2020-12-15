@@ -67,6 +67,9 @@ bot.on('message' , message=>{
         case 'bye' :
              message.reply('Goodbye Human!');
         break;
+        case 'gif' :
+             message.reply('https://media.giphy.com/media/0QkymLUyfUgRcmrcRo/giphy.gif');
+        break;
         case 'whitelist' :
              message.reply('Please Refer Our #whitelist-guide');
         break;
