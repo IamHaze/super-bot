@@ -73,6 +73,9 @@ bot.on('message' , message=>{
         case 'whitelist' :
              message.reply('Please Refer Our #whitelist-guide');
         break;
+        case 'lapar' :
+             message.reply('Guys Mohon Jgn Post makanan please. Sy lapar');
+            break;
         case 'clear':
         if(!args[1]) return message.reply('Nk clear berapa ni boss =.=!')   
         message.channel.bulkDelete(args[1]);
