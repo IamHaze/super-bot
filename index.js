@@ -64,6 +64,9 @@ bot.on('message' , message=>{
          case 'phasmophobia' :
              message.reply('phasmophobia ke .? nk join plz');
             break;
+         case 'pmf' :
+             message.reply('https://giphy.com/gifs/7JyffSLe1kNLfEbVkX');
+            break;
         case 'bye' :
              message.reply('Goodbye Human!');
         break;
