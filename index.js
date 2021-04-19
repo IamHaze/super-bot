@@ -67,6 +67,9 @@ bot.on('message' , message=>{
          case 'pmf' :
              message.reply('https://media.giphy.com/media/BnF8kr8hrUk0ALp395/giphy.gif');
             break;
+        case 'logo' :
+             message.reply('https://imgur.com/a/bSB7Na9');
+            break;
         case 'bye' :
              message.reply('Goodbye Human!');
         break;
