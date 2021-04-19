@@ -47,7 +47,7 @@ bot.on('message' , message=>{
              message.reply('Hi Im Ok running with 100% Health');
             break;
         case 'link' :
-             message.reply('https://discord.gg/DuVpXAS');
+             message.reply('https://discord.gg/CjVcrK9mwD');
             break;
         case 'mhx01' :
              message.reply('You Summon me Human.?');
@@ -65,7 +65,7 @@ bot.on('message' , message=>{
              message.reply('phasmophobia ke .? nk join plz');
             break;
          case 'pmf' :
-             message.reply('https://giphy.com/gifs/7JyffSLe1kNLfEbVkX');
+             message.reply('https://media.giphy.com/media/BnF8kr8hrUk0ALp395/giphy.gif');
             break;
         case 'bye' :
              message.reply('Goodbye Human!');
