@@ -43,6 +43,9 @@ bot.on('message' , message=>{
         case 'hi' :
              message.reply('Hello Fellow Human');
             break;
+        case 'morning' :
+             message.reply('Goodmorning wake up sunshine');
+            break;
         case 'status' :
              message.reply('Hi Im Ok running with 100% Health');
             break;
