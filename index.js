@@ -79,6 +79,9 @@ bot.on('message' , message=>{
         case 'whitelist' :
              message.reply('Please Refer Our #whitelist-guide');
         break;
+        case 'sleep' :
+             message.reply('Goodnight Sweet Dreams. Jgn lupa basuh kaki');
+            break;
         case 'lapar' :
              message.reply('Guys Mohon Jgn Post makanan please. Sy lapar');
             break;
