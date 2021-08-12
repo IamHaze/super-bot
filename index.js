@@ -50,7 +50,7 @@ bot.on('message' , message=>{
              message.reply('Hi Im Ok running with 100% Health');
             break;
         case 'link' :
-             message.reply('https://discord.gg/CjVcrK9mwD');
+             message.reply('https://discord.gg/MkuQPcH');
             break;
         case 'mhx01' :
              message.reply('You Summon me Human.?');
